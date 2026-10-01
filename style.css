@@ -20,7 +20,7 @@ body {
 
 .card {
     width: 800px;
-    height: 700px;
+    height: 788px;
     padding: 20px;
     background-color: rgba(30, 30, 47, 0.2);
     border-radius: 10px;
@@ -55,7 +55,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 60px;
+        margin-top: 25px;
         gap: 10px;
 
         a {
@@ -69,7 +69,7 @@ body {
             color: #ffffff;
         }
 
-        button {
+        /* button {
             padding: 5px 15px;
             font-size: 25px;
             background-color: #b8bec9;
@@ -83,6 +83,14 @@ body {
         button:hover {
             background-color: #ffffff;
             color: #050816;
+        } */
+
+        video {
+            max-width: 100%;
+            width:200px;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 10px;
         }
     }
 }
